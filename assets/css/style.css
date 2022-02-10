@@ -1,0 +1,12 @@
+header{
+    background-image: url("../images/starcraft_cat.jpg");
+    margin: 0;
+}
+.hero{
+    background-image: url("../images/starcraft_cat.jpg");
+    margin: 0;
+    height: 250px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
