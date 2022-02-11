@@ -20,7 +20,7 @@ header div{
     background-color: greenyellow;
 }
 
-header nav {
+header nav{
     display: flex;
     background-image: linear-gradient(#ba0000,#ba0000);
 }
@@ -36,10 +36,82 @@ header div nav a {
 
 
 
-//*.hero{
-    background-image: url("../images/Abstract_BG.jpg");
+.hero{
+    background-color: #ba0000;
     margin: 0;
-    height: 250px;
+    height: 200px;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.hero img{
+    max-height: 90%;
+    max-width: 90%;
+}
+
+.hero p{
+    color:aliceblue;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 3px;
+    border-color:blueviolet;
+    text-align: center;
+    padding: 25px;
+    width: 20%;
+    margin: 7.5% 6% 4% 4%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sub-title {
+    
+}
+
+.sub-title h2{
+    font-size: 30px;
+    text-align: center;
+    color:magenta;
+    padding-bottom: 20px;
+
+}
+
+.sub-title p{
+    line-height: 1.5;
+    color:aquamarine;
+    padding-bottom: 20px;
+}
+
+.aboutme{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-main-img{
+
+    width: 30%;
+    height: 30%;
+}
+
+
+footer{
+    background-color: greenyellow;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    margin-top: 20px;
+}
