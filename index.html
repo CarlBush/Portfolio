@@ -9,73 +9,69 @@
 
     <body>
         <header id="main-header">
-            <div class="container">
-                    <h1>Portiflio</h1>
-            </div>
         </header>
 
-        <nav id="nav-bar">
+        <nav>
             <div class="container">
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <section id="showcase">
             <div class="container">
-                <h2>Carl Bush</h2>
+                <h1>Carl Bush</h1>
             </div>
         </section>
         
-        <main id="main">
+<!---ABOUT ME START HERE-->
+
             <div class="container">
-                <aside id="sidebar">
+                <aside class="sidebar">
                     <h2>About Me</h2>
-                    <img class="avatar" src="./assets/images/avatar.pn" alt="Carl Bush avatar"/>
                 </aside>
-                <section id="about" class="main-sub" class="about">
+                <section id="about" class="main-sub">
+                    <img class="avatar" src="./assets/images/avatar.png" alt="Carl Bush avatar"/>
                         <p>butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft</p>
                 </section>
             </div>
+
+<!---ABOUT ME END HERE-->
+<!---WORK START HERE--> 
             <section id="work" class="container">
-                <aside id="sidebar">
+                <aside class="sidebar">
                     <h2>Work</h2>
                 </aside>
-                    <div class ="main-sub" class="projects">
-                        <div class = project1>
-                            <h3>Run Buddy</h3>
-                            <img src="./assets/images/runbuddy.png" alt="run buddy website"/>
+                    <div class ="main-sub">
+
+                        <div class = "project1">
+                            <a href="https://carlbush.github.io/run-buddy/">
+                                <img src="./assets/images/runbuddy2.png" alt="run buddy website"/>
+                            </a>
                         </div>
 
-                        <div class = project2>
-                            <h3>Project 2</h3>
-                            <img src="http://placekitten.com/300/300" alt="project 2"/>
+                        <div class = "project2">
+                                <img src="http://placekitten.com/600/250" alt="project 2" class="project2-1"/>
+                                <img src="http://placekitten.com/600/250" alt="project 2" class="project2-2"/>
                         </div>
-
-                        <div class = project3>
-                            <h3>Project 3</h3>
-                            <img src="http://placekitten.com/300/300" alt="project 3"/>
+                        
+                        <div class ="project3">
+                            <img src="http://placekitten.com/1000/300" alt="project 3"/>
                         </div>
-
-                        <div class = project4>
-                            <h3>Project 4</h3>
-                            <img src="http://placekitten.com/300/300" alt="project 4"/>
-                        </div>
-
-                        <div class = project5>
-                            <h3>Project 5</h3>
-                            <img src="http://placekitten.com/300/300" alt="project 5"/>
-                        </div>
+                    
                     </div>
             </section>
+
             <div class="container">
-                <aside id="sidebar">
+                <aside class="sidebar">
                     <h2>Contact Me</h2>
                 </aside>
-                <section id="contact" class="main-sub" class="contact">
+                <section id="contact" class="main-sub">
                         <div>
                             <p>Phone Number: (520)390-9559</p>
                             <a href ="https://github.com/CarlBush">GitHub</a>
@@ -83,11 +79,9 @@
                         </div>
                 </section>
             </div>
-        </main>
+
 
         <footer id="main-footer">
-            <p> Copyright &copy; 2021 OG</p>
-
         </footer>
     </body>
 </html>
